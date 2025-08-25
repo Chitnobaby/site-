@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stilo.css">
+  <title>Trabalho!</title>
+  <style>
+    /* Só como exemplo, pode jogar isso no stilo.css */
+    .cards-contairner {
+      display: flex;
+      gap: 20px;              /* espaço entre os cards */
+      justify-content: center; /* centraliza os cards */
+      flex-wrap: wrap;        /* quebra linha no celular */
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .card button {
+      background: orange;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .card button a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .card button:hover {
+      background: darkorange;
+    }
+  </style>
+</head>
+<body>
+
+  <nav> 
+    <div class="logo">📱 CellShop</div>
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="index.html#produtos">Produtos</a></li>
+      <li><a href="index.html#sobre">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav> 
+
+  <section class="Produtos" id="produtos">
+    <h1>Nossos Celulares</h1>
+
+    <div class="cards-contairner">
+      <div class="card">
+        <img src="IMSg/cll5.png" alt="Iphone 14">
+        <h2>Iphone 14</h2>
+        <p>R$ 3.627,04</p>
+        <button>
+          <a href="https://www.mercadolivre.com.br/apple-iphone-14-128-gb-meia-noite-distribuidor-autorizado/p/MLB1019615360?pdp_filters=item_id:MLB3398672845">Comprar</a>
+        </button>
+      </div>
+
+      <div class="card">
+        <img src="IMSg/abcell3.png" alt="Poco C75">
+        <h2>Poco C75</h2>
+        <p>R$ 918,99</p>
+        <button>
+          <a href="http://mercadolivre.com.br/celular-xiaomi-poco-c75-4g-dual-sim-256-gb-preto-8-gb-ram-android-14-nfc/p/MLB48338116">Comprar</a>
+        </button>
+      </div>
+
+      <div class="card">
+        <img src="IMSg/Galaxy-S24.png" alt="Samsung S24">
+        <h2>Samsung S24</h2>
+        <p>R$ 3.302,97</p>
+        <button>
+          <a href="http://mercadolivre.com.br/samsung-galaxy-s24-galaxy-ai-256gb-preto-8gb-ram/p/MLB29699966">Comprar</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
